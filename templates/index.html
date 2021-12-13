@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator - Home</title>
+    <link rel="icon" type="image/x-icon" href="/static/calcc2.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+
+<body>
+<div class="topnav">
+    <a class="active" href="/new1">python</a>
+    <a class="active" href="/new2">AAA TESTING</a>
+    <a class="active" href="/new3">Calculator</a>
+    <a class="active" href="/new4">Seperation of concerns</a>
+    <a class="active" href="/">Calculator simulation</a>
+</div>
+    <div class="calculator-div">
+        <img src="/static/calcc2.png" />
+        <a href="/history">view history</a>
+        <form onsubmit="calculate(this)">
+            <input name="num1" type="number" placeholder="NUM 1" required />
+            <input name="num2" type="number" placeholder="NUM 2" required />
+            <select name="type" required>
+                <option value="addition">ADDITION</option>
+                <option value="substraction">SUBTRACTION</option>
+                <option value="multiplication">MULTIPLICATION</option>
+                <option value="division">DIVISION</option>
+            </select>
+            <input type="submit">
+        </form>
+        <p class="result"></p>
+    </div>
+    <script src="/static/js/index.js"></script>
+</body>
+
+</html>

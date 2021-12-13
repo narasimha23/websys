@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a {
+            float: right;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        header{
+            color: black;
+            background-color: teal;
+            text-align: center;
+            height: 50px;
+            font-size: 30px;
+            font-family: "calibri";
+            font-weight: bold;
+        }
+        .thebeginning{
+            background-color: skyblue;
+            font-weight: bold;
+        }
+        footer{
+            height: 80px;
+            background-color: green;
+            font-weight: bold;
+            font-size: 20px;
+            color: dodgerblue;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<header>
+    OOPS AND ITS CONCEPTS
+</header>
+<div class="topnav">
+    <a class="active" href="/new1">python</a>
+    <a class="active" href="/new2">AAA TESTING</a>
+    <a class="active" href="/new3">Calculator</a>
+    <a class="active" href="/new4">Seperation of concerns</a>
+    <a class="active" href="/">Calculator simulation</a>
+</div>
+<article class="thebeginning">
+    <img src="/static/oops.jpeg" alt="image" style="width: 1500px;height: 650px">
+    <p>
+        Create an article that gives some tips and tricks to new python programmers to
+        implement pylint. Create a glossary of OOP terms with definitions: Factory, instantiation,
+        object, class, namespace, constructor, fixture, type hint, type cast, unit test, static, class
+        method, facade, design patterns used, method, property and any other terms you found
+        important
+        What is object oriented programming
+        Object-oriented programming is a programming paradigm that provides a means of structuring
+        programs so that properties and behaviors are bundled into individual objects.
+        For instance, an object could represent a person with properties like a name, age, and address and
+        behaviors such as walking, talking, breathing, and running. Or it could represent an email with
+        properties like a recipient list, subject, and body and behaviors like adding attachments and sending.
+        Another common programming paradigm is procedural programming, which structures a program
+        like a recipe in that it provides a set of steps, in the form of functions and code blocks, that flow
+        sequentially in order to complete a task.
+        The key takeaway is that objects are at the center of object-oriented programming in Python, not only
+        representing the data, as in procedural programming, but in the overall structure of the program as
+        well.
+        1)Factory
+        In object-oriented programming (OOP), a factory is an object for creating other objects
+        – formally a factory is a function or method that returns objects of a varying prototype
+        or class from some method call, which is assumed to be "new
+        2)instantiation
+        Instantiating a class is creating a copy of the class which inherits all class variables and
+        methods. Instantiating a class in Python is simple. To instantiate a class, we simply call
+        the class as if it were a function, passing the arguments that the __init__ method
+        defines.
+        3)object,
+        An Object is an instance of a Class. A class is like a blueprint while an instance is a
+        copy of the class with actual values. Python is object oriented programming language
+        which stress on objects i.e. it mainly emphasize on functions.
+        4)class,
+        “Class” is a logical grouping of functions and data. Python class provides all the
+        standard features of Object Oriented Programming. ... In Python, a class can inherit
+        attributes and behavior methods from another class called subclass or heir class
+        5)namespace,
+        Namespaces in Python. A namespace is a collection of currently defined symbolic
+        names along with information about the object that each name references. You can
+        think of a namespace as a dictionary in which the keys are the object names and the
+        values are the objects themselves.
+        6) constructor,
+        What is constructor in OOP Python?
+        Constructors are generally used for instantiating an object. The task of constructors is
+        to initialize(assign values) to the data members of the class when an object of the class
+        is created. In Python the __init__() method is called the constructor and is always called
+        when an object is created
+        7) fixture,
+        Fixtures define the steps and data that constitute the arrange phase of a test (see
+        Anatomy of a test). In pytest, they are functions you define that serve this purpose. They
+        can also be used to define a test's act phase; this is a powerful technique for designing
+        more complex tests.
+        8)type hint,
+        Type hinting is a formal solution to statically indicate the type of a value within your
+        Python code. It was specified in PEP 484 and introduced in Python 3.5. Here's an
+        example of adding type information to a function
+        9)type cast,
+        Type casting is a method used to change the variables/ values declared in a certain
+        data type into a different data type to match the operation required to be performed by
+        the code snippet. In python, this feature can be accomplished by using constructor
+        functions like int(), string(), float(), etc
+        10)unit test,
+        The unit test framework in Python is called unittest , which comes packaged with
+        Python. Unit testing makes your code future proof since you anticipate the cases where
+        your code could potentially fail or produce a bug. Though you cannot predict all of the
+        cases, you still address most of them
+        11) static,
+        The static variable and static method are the widely used programming concepts in
+        various languages such as C++, PHP, Java, etc. These variables and methods belong to
+        the class and the objects. In this section, we will learn how we create static variables
+        and methods in Python.
+        12)class method,
+        A class method is a method which is bound to the class and not the object of the class.
+        They have the access to the state of the class as it takes a class parameter that points
+        to the class and not the object instance. It can modify a class state that would apply
+        across all the instances of the class
+        13)facade,
+        Facade is a structural design pattern that provides a simplified (but limited) interface to
+        a complex system of classes, library or framework. While Facade decreases the overall
+        complexity of the application, it also helps to move unwanted dependencies to one
+        place.
+        14)design patterns used,
+        Design Patterns is the most essential part of Software Engineering, as they
+        provide the general repeatable solution to a commonly occurring problem in
+        software design. They usually represent some of the best practices adopted by
+        experienced object-oriented software developers
+        15)method
+        A method is a function that “belongs to” an object. (In Python, the term method is not
+        unique to class instances: other object types can have methods as well. For example,
+        list objects have methods called append, insert, remove, sort, and so on
+
+
+
+    </p>
+</article>
+<footer>
+    Author:REDDI NARASIMHA NAIDU
+    <ul><li><a href=https://github.com/narasimha23/untitled2>nr483@njit.edu</a></li></ul>
+    <ul><li><a href="https://validator.w3.org/nu/#file">wc3</a></li></ul>
+</footer>
+
+</body>
+</html>

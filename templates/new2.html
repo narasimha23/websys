@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a {
+            float: right;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        header{
+            color: black;
+            background-color: teal;
+            text-align: center;
+            height: 50px;
+            font-size: 30px;
+            font-family: "calibri";
+            font-weight: bold;
+        }
+        .thebeginning{
+            background-color: skyblue;
+            font-weight: bold;
+        }
+        footer{
+            height: 80px;
+            background-color: green;
+            font-weight: bold;
+            font-size: 20px;
+            color: dodgerblue;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<header>
+    UNIT TESTING
+</header>
+<div class="topnav">
+    <a class="active" href="/new1">python</a>
+    <a class="active" href="/new2">AAA TESTING</a>
+    <a class="active" href="/new3">Calculator</a>
+    <a class="active" href="/new4">Seperation of concerns</a>
+    <a class="active" href="/">Calculator simulation</a>
+</div>
+<article class="thebeginning">
+    <img src="/static/unit%20testing.jpeg" alt="image" style="width: 1500px;height: 650px">
+    <p>
+        UNIT TESTING
+        Unit testing is a method that is used to test programs and applications to see if they function according to the clients’ specifications. Unit testing involves testing individual components of the software program or application. The main purpose behind this is to check that all the individual parts are working as intended. A unit is known as the smallest possible component of software that can be tested. Generally, it has a few inputs and a single output.
+        There are two main types of unit testing: manual and automated. The automated method is the most preferred as it is faster and more accurate, but performing this task manually is also an option. The manual approach has a step-by-step instructional procedure that helps testers perform this task efficiently. The automated unit testing usually involves the developer first writing a section of the code in the application so that the function can be tested.
+        Unit Testing Process
+        The workflow of unit testing in software testing usually follows this framework:
+        Create the test cases
+        Review or rework
+        Baseline
+        Execute test cases
+        Advantages of Unit Testing:
+        The process becomes agile
+        Quality of Code
+        Facilitates Change
+        Provides Documentation
+        Debugging Process
+        Design
+        Reduce Costs
+        Importance Of Unit Testing
+        Automated unit tests reduce the number of bugs released in the production. The best unit testing will come from a developer very close to the project and writing unit tests helps some developers to understand the code better. It can often be a good way for new developers on the project to get to know code if it was written by someone else. For the best practice, all projects must be under unit testing, but normally it is used for larger projects. Smaller projects can still benefit from unit tests, but project managers and clients should evaluate the time needed to develop unit tests during the project.
+
+        The Arrange, Act and Assert (AAA) Pattern
+        A test is a procedure that exercises a behavior to determine if the behavior functions correctly. There are several different kinds of tests, like unit tests, integration tests, or end-to-end tests, but all functional tests do the same basic thing: they try something and report PASS or FAIL.
+        Testing provides an empirical feedback loop for development. That’s how testing keeps us safe. With tests, we know when things break. Without tests, coding can be dangerous. We don’t want to deploy big ol’ bugs!
+        So, if we intend to spend time writing tests, how can we write good tests? There’s a simple but powerful pattern I like to follow:Arrange-Act-Assert.
+        The Pattern
+        Arrange-Act-Assert is a great way to structure test cases. It prescribes an order of operations:
+        1.Arrange inputs and targets.Arrange steps should set up the test case. Does the test require any objects or special settings? Does it need to prep a database? Does it need to log into a web app? Handle all of these operations at the start of the test.
+        2.Act on the target behavior.Act steps should cover the main thing to be tested. This could be calling a function or method, calling a REST API, or interacting with a web page. Keep actions focused on the target behavior.
+        3.Assert expected outcomes.Act steps should elicit some sort of response.Assert steps verify the goodness or badness of that response. Sometimes, assertions are as simple as checking numeric or string values. Other times, they may require checking multiple facets of a system. Assertions will ultimately determine if the test passes or fails.
+        Behavior-Driven Development follows the Arrange-Act-Assert pattern by another name:Given-When-Then. The Gherkin language uses Given-When-Then steps to specify behaviors in scenarios.Given-When-Then is essentially the same formula as Arrange-Act-Assert.
+        Every major programming language has at least one test framework. Frameworks like JUnit,NUnit, Cucumber, and (my favorite) pytest enable you, as the programmer, to automate tests, execute suites, and report results.
+        The AAA pattern is as follows.
+        def test_abs_for_a_negative_number ():
+        # Arrange
+        negative = -5
+        # Act
+        answer = abs(negative)
+        # Assert
+        assert answer == 5
+
+
+
+        Why Is This a Better Test?
+        Readability is a major advantage to arrange, act, assert tests. Tests often do double duty. They verify behavior and act as documentation. So the easier it is to open up a test class and decipher what it's doing, the better.
+        We have four test methods instead of one. If one of them fails, we'll immediately know what went wrong. Unlike the first example, each method has only one reason to change and one reason to fail. In a large and complicated code base, tests that honor the single responsibility principle are much easier to troubleshoot.
+    </p>
+</article>
+<footer>
+    Author:REDDI NARASIMHA NAIDU
+    <ul><li><a href=https://github.com/narasimha23/untitled2>nr483@njit.edu</a></li></ul>
+    <ul><li><a href="https://validator.w3.org/nu/#file">wc3</a></li></ul>
+</footer>
+
+</body>
+</html>
