@@ -1,0 +1,16 @@
+num1,num2,type,result
+5,5,addition,10
+4,4,addition,8
+3,4,addition,7
+5,4,addition,9
+5,1,substraction,4
+5,2,multiplication,10
+5,5,division,1.0
+5,2,addition,7
+5,2,substraction,3
+5,2,multiplication,10
+5,5,addition,10
+5,6,addition,11
+5,6,substraction,-1
+4,6,multiplication,24
+4,2,division,2.0
